@@ -102,3 +102,12 @@ body{background:var(--paper)}
 .contact-inner>p:not(.section-label){color:#e0eaff}
 .contact-email{border-color:#a6baff}.contact-email:hover{color:#dced71}
 .site-footer{color:#61738c}
+
+/* Contextual photography: Dibimbing within Operations case study */
+.visual-batches{display:flex;flex-direction:column;gap:16px;height:auto}
+.visual-batches .proof-card{flex:0 0 auto}
+.ops-work-photo{margin:0;width:100%;position:relative}
+.ops-work-photo img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center 58%;border:1px solid #d4def1}
+.ops-work-photo figcaption{font-size:10px;letter-spacing:.13em;font-weight:700;color:#526d9a;margin-top:9px}
+.office-photo img{object-position:center 44%}
+@media(max-width:650px){.ops-work-photo img{aspect-ratio:4/3}}
